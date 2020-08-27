@@ -24,3 +24,6 @@ By using above two models, recommender system makes personal recommendation for 
 
 Data from Korea University KOREAPAS sofo
 
+![sofo1](https://user-images.githubusercontent.com/20104945/91419468-65d9e400-e88e-11ea-984e-a5363171cba7.jpg)
+![sofo2](https://user-images.githubusercontent.com/20104945/91419473-670b1100-e88e-11ea-81b0-e7168199158d.jpg)
+
