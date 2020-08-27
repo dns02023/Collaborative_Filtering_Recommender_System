@@ -1,4 +1,4 @@
-# Two_Collaborative_Filtering_Method_for_Recommender_System
+# Two_Collaborative_Filtering_Methods_for_Recommender_System
 
 Both Methods are based on latent factor collaborative filtering
 
