@@ -9,7 +9,7 @@ Latent factors collaborative filtering by Deep Learning model
   -Merge layer does dot product of two latent factors matrix, and returns predicted rating matrix.
 
 
-2. *Matrix Factorization with Bias Method*
+2. *Matrix Factorization with Bias Method*  
 Latent factors collaborative filtering by matrix factorization model with bias  
   * Model Description :  
   -Model trains two latent factor matrices (user latent factor / item latent factor)   
