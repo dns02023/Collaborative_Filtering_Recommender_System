@@ -1,26 +1,16 @@
-# Two_Collaborative_Filtering_Methods_for_Recommender_System
+# Latent Factors Collaborative Filtering for Restaurant Recommendation
 
-Both Methods are based on latent factor collaborative filtering
+Reference : 'Matrix Factorization Techniques for Recommender Systems', Yehuda Koren, 2009
 
-1. *Deep Learning Method*  
-Latent factors collaborative filtering by Deep Learning model  
-  * Model Description :  
-  -Two embedding layers create users' latent factors matrix / itmes(restaurants)' latent factors matrix respectively.  
-  -Merge layer does dot product of two latent factors matrix, and returns predicted rating matrix.
-
-
-2. *Matrix Factorization with Bias Method*  
+*Matrix Factorization with Bias Method*  
 Latent factors collaborative filtering by matrix factorization model with bias  
   * Model Description :  
+  -Model splits data set (matrix values) into train set and validation set
   -Model trains two latent factor matrices (user latent factor / item latent factor)   
   -By dot product of two latent factor matrices, model get reconstructed prediction rating matrix
+  -This model can stop early when there is no more train improvement(by checking tolerance) 
   
-
-
-
-
-
-By using above two models, recommender system makes personal recommendation for target user based on predicted rating.    
+This CF based recommender system makes personal recommendation for target user based on predicted rating.    
 
 Data from Korea University KOREAPAS sofo
 
