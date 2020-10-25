@@ -3,9 +3,10 @@
 Reference : 'Matrix Factorization Techniques for Recommender Systems', Yehuda Koren, 2009
 
 *Matrix Factorization with Bias Method*  
+
 Latent factors collaborative filtering by matrix factorization model with bias  
   * Model Description :  
-  -Model splits data set (matrix values) into train set and validation set
+  -Model splits data set (matrix values) into train set and validation set  
   -Model trains two latent factor matrices (user latent factor / item latent factor)   
   -By dot product of two latent factor matrices, model get reconstructed prediction rating matrix
   -This model can stop early when there is no more train improvement(by checking tolerance) 
