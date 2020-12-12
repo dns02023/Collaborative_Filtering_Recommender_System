@@ -8,8 +8,8 @@ Latent factors collaborative filtering by matrix factorization model with bias
   * Model Description :  
   -Model splits data set (matrix values) into train set and validation set  
   -Model trains two latent factor matrices (user latent factor / item latent factor)   
-  -By dot product of two latent factor matrices, model get reconstructed prediction rating matrix  
-  -This model can stop early when there is no more train improvement(by checking tolerance)  
+  -By dot product of two latent factor matrices, model gets reconstructed rating matrix (getting prediction)  
+  -This model can stop early when there is no more train improvement by checking tolerance (early stopping)  
   
 This CF based recommender system makes personal recommendation for target user based on predicted rating.    
 
